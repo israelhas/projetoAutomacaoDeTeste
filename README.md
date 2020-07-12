@@ -1,6 +1,6 @@
 # projetoAutomacaoDeTeste
 
-Projeto criado para treinamento de testes automatizados 
+Projeto criado para treinamento de testes automatizados com Seleniun WebDriver
 
 ### Estrutura do projeto
 
@@ -10,7 +10,7 @@ Classes  para realização dos testes
 
 **_1. Page_**
 
-Classes  onde será mapeado os elementos da page
+Classes  onde será mapeado os elementos da página web
 
 **_1. DSL_**
 
