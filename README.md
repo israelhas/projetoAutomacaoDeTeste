@@ -12,7 +12,7 @@ Classes  para realização dos testes
 
 Classes  onde será mapeado os elementos da page
 
-**_1. Core_**
+**_1. DSL_**
 
 Classes de métodos 
 
