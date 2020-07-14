@@ -1,5 +1,7 @@
 # projetoAutomacaoDeTeste
 
+![bug](https://user-images.githubusercontent.com/33205795/87365387-750a0a00-c54c-11ea-8a6b-bdda3475a3fd.jpg)
+
 Projeto criado para treinamento de testes automatizados com Seleniun WebDriver
 
 ### Estrutura do projeto
