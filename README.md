@@ -6,18 +6,18 @@ Projeto criado para treinamento de nível básico de testes automatizados com Se
 
 ## Estrutura do projeto
 
-_**1. Teste**_
+_**1.Classe Test**_
 
-Classes para realização dos testes
+Classes para realização dos testes do projeto
 
-_**2. Page**_
+_**2.Classe Page**_
 
-Classes onde será mapeado os elementos da página web
+Classes onde será mapeado os elementos da página web do projeto
 
-_**3. DSL**_
+_**3.Classe DSL**_
 
-Classe de métodos
+Classe de métodos que o projeto utilizará, os métodos dessa dessa classe normalmente são utilizados na classe page
 
-_**4. Core**_
+_**4.Classe Core**_
 
-Classe de configuração
+Classe de configuração do projeto
