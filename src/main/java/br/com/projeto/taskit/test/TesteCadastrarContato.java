@@ -19,7 +19,7 @@ public class TesteCadastrarContato extends BaseTest {
 	@Before
 	public void inicializa() {
 
-		getDriver().get("http://www.juliodelima.com.br/taskit/");
+		getDriver().get("http://www.juliodelima.com.br/taskit/"); 
 
 		// Não pode ficar na página de teste, componente da DSL ver melhoria depois
 
