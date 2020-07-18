@@ -1,4 +1,4 @@
-## Projeto Automacao De Teste
+## Projeto Automação De Teste
 
 ![bug](https://user-images.githubusercontent.com/33205795/87365387-750a0a00-c54c-11ea-8a6b-bdda3475a3fd.jpg)
  
