@@ -6,7 +6,6 @@ import static br.com.projeto.core.DriverFactory.getDriver;
 import org.junit.Before;
 import org.junit.Test;
 import br.com.projeto.core.BaseTest;
-import br.com.projeto.core.DriverFactory;
 import br.com.projeto.taskit.page.LoginPage;
 
 /*
