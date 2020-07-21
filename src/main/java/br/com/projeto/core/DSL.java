@@ -78,11 +78,13 @@ public class DSL {
 		
 	   getDriver().findElement(by).clear();
 		
-		// A variável formularioCriarLogin está recebendo o id do formulário (ID da tag DIV)
-		WebElement formularioCriarLogin = getDriver().findElement(By.id(id_div));
+	   getDriver().findElement(By.id(id_div)).findElement(By.name(name)).sendKeys(texto);
+	  
+	   // A variável formularioCriarLogin está recebendo o id do formulário (ID da tag DIV)
+		//WebElement formularioCriarLogin = getDriver().findElement(By.id(id_div));
 		// formularioCriarLogin possui os elementos do formulário e está fazendo uma
 		// pesquisa por nome da tag dentro dele e escreve o texto recebido
-		formularioCriarLogin.findElement(By.name(name)).sendKeys(texto);
+		//formularioCriarLogin.findElement(By.name(name)).sendKeys(texto);
 		
 	}
 	
@@ -241,10 +243,11 @@ public class DSL {
 	public void clicarBotaoPorIDeTextVisible(String id, String TextVisible) {
 		// A variável formularioCriarLogin está recebendo o id do formulário (ID da tag
 		// DIV)
-		WebElement formularioCriarLogin = getDriver().findElement(By.id(id));
+		getDriver().findElement(By.id(id)).findElement(By.linkText(TextVisible)).click();
+		//WebElement formularioCriarLogin = getDriver().findElement(By.id(id));
 		// formularioCriarLogin possui os elementos do formulário e está fazendo uma
 		// pesquisa por nome da tag dentro dele e escreve o texto recebido
-		formularioCriarLogin.findElement(By.linkText(TextVisible)).click();
+		//formularioCriarLogin.findElement(By.linkText(TextVisible)).click();
 	}
 
 	/********* Textos / mensagens ************/

@@ -19,23 +19,24 @@ public class TesteCadastrarContato extends BaseTest {
 	@Before
 	public void inicializa() {
 
-		getDriver().get("http://www.juliodelima.com.br/taskit/"); 
+		//getDriver().get("http://www.juliodelima.com.br/taskit/"); 
 
 		// Não pode ficar na página de teste, componente da DSL ver melhoria depois
 
-		getDriver().findElement(By.linkText("Sign in")).click();
+		//getDriver().findElement(By.linkText("Sign in")).click();
 
-		WebElement formularioCriarLogin = getDriver().findElement(By.id("signinbox"));
-		formularioCriarLogin.findElement(By.name("login")).sendKeys("israel.soares");
+		//WebElement formularioCriarLogin = getDriver().findElement(By.id("signinbox"));
+		//formularioCriarLogin.findElement(By.name("login")).sendKeys("israel.soares");
 
-		WebElement formularioCriarLogin2 = getDriver().findElement(By.id("signinbox"));
-		formularioCriarLogin2.findElement(By.name("password")).sendKeys("123");
+		//WebElement formularioCriarLogin2 = getDriver().findElement(By.id("signinbox"));
+		//formularioCriarLogin2.findElement(By.name("password")).sendKeys("123");
 
-		WebElement formularioCriarLogin3 = getDriver().findElement(By.id("signinbox"));
-		formularioCriarLogin3.findElement(By.linkText("SIGN IN")).click();
+		//WebElement formularioCriarLogin3 = getDriver().findElement(By.id("signinbox"));
+		//formularioCriarLogin3.findElement(By.linkText("SIGN IN")).click();
 
 		// ---------------------------------------------------------------------------------------------
 
+		new TesteRealizarLogin().realizarLogin();
 		page = new CadastrarContatoPage();
 		dsl = new DSL();
 	}
